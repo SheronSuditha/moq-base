@@ -4,4 +4,5 @@ members = [
 	"moq-quinn",
     "moq-pub",
     "moq-warp",
+    "moq-sub"
 ]

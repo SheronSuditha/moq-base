@@ -3,7 +3,7 @@ use std::net;
 
 #[derive(Parser, Clone)]
 #[command(arg_required_else_help(true))]
-pub struct Config {
+pub struct Config { // 
 	#[arg(long, hide_short_help = true, default_value = "[::]:0")]
 	pub bind_address: net::SocketAddr,
 
